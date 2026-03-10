@@ -1,0 +1,92 @@
+/* Center the calculator on the screen */
+*{
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('calc_bg.png');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Calculator panel */
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 30px;
+  background: rgba(35, 218, 53, 0.9);
+  border-radius: 10px;
+  border: green 2px solid;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.35);
+  margin-left: -40px;
+  transform: rotate(2deg);
+  transition: transform 0.3s ease;
+}
+
+.calculator.straight{
+  transform: rotate(0deg);
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Default input styling */
+input {
+  width: 250px;
+  padding: 6px;
+  font-size: 16px;
+  background-color: rgb(133, 210, 130);
+  border-radius: 4px;
+
+}
+
+/* Operator dropdown smaller */
+#operator {
+  width: 60px;
+  padding: 4px;
+  background-color: rgb(108, 224, 108);
+}
+
+/* Result display */
+#answer {
+  width: 250px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Green calculator text */
+h2,
+label,
+#answer {
+  color: black;
+}
+
+/* Button styling */
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #0e4a11;
+  color: rgb(15, 228, 8);
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+}
+  

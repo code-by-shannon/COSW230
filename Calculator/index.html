@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <title>Calculator - Week 1 Lecture</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="calculator">
+
+    <h2>My Calculator</h2>
+
+    <form>
+        <!-- first number -->
+        <input type="number" id="num1" placeholder="Enter a number"/>
+
+        <!-- operator -->
+        <select id="operator">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+
+        <!-- second number -->
+        <input type="number" id="num2" placeholder="Enter another number"/>
+
+        <!-- calculate button -->
+        <button type="submit">Calculate</button>
+    </form>
+
+    <!-- result -->
+    <div class="result">
+      <label>Your Answer</label>
+      <input type="number" id="answer"/>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
