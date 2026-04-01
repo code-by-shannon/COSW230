@@ -1,0 +1,30 @@
+State: What problem does state solve?
+Props: What problem do props solve?
+State and Props: What's the difference between state and props?
+
+
+
+State:
+State solves the problem of managing dynamic data that changes within a component over time.
+
+State is data that can change.
+State manages and updates internal data.
+Any time that state is updated the UI is rerendered.
+The problem it solves is that in JS you would have to update state changes manually but React can handle it
+declaratively.  
+
+
+
+
+Props:
+Props solve the problem of passing data from a parent compenent to a child component in a one way flow.
+
+Props are how components talk to each other.
+One purpose of a prop is data sharing. Props allow components to receive data from their parents components which allows components to be reusable and dynamic.
+Props can be used to pass any kind of data, including numbers, strings, Booleans, objects, arrays, and also event handlers or functions.
+
+Stave vs Props
+The difference is that state is managed within a component and can change, while props are passed from a parent and are read-only in the child component.
+
+
+
