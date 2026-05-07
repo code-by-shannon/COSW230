@@ -1,0 +1,24 @@
+How would you define a side effect?
+
+Side effects are operations that interact with the outside world, anything that affects other components,
+or operations that need to happen at specific times in the component life cycle including:
+API requests, setting up or tearing down subscriptions or timers, direct DOM manipulation and logging.
+
+
+How does the useEffect() Hook work?
+It is only necessary to use useEffect() on processes that run automatically.
+For example if you have a button that calls a function when clicked, useEffect() is not necessary as the function
+only runs when called manually by the user.
+
+Anytime we go outside of the react environment it is considered a side effect
+
+
+Which values should not be added to the useEffect() dependencies array?
+You should include everything your effect depends on that can change.
+
+You don't need to include the following as dependencies:
+local variables, fetchPosts, functions or values provided by the browser and useState are some examples.
+
+
+ Which value can be returned by the effect function?
+ A cleanup function.

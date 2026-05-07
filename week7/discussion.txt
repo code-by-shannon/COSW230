@@ -1,0 +1,44 @@
+1)  Why does React use virtual DOM to detect required DOM updates?
+It's easier for react to compare two  objects than to deal directly with the DOM itself. 
+It creates a virtual DOM object and compares it to the new virtual DOM object after a state change to see what it needs to render.
+
+
+2)  How is useMemo() different from memo()?
+Both useMemo() and memo() are optimization techniques that help prevent unecessary re-renders but they serve different
+purposes and are used in different contexts.
+
+memo() is a higher-order component that memoizes (caches) an entire component.  memo() is for components.
+
+useMemo() is a hook that memoizes (caches) a specific value or calculation within a component.  useMemo() is for functions.
+
+An  HOC is a function that accepts another function for its argument.
+
+memo() is used when you want to prevent an entire component from rerendering.
+useMemo() is used when you want cache a specific expensive calculation or value creation inside a component.
+
+
+3)  What's the idea behind code splitting and the lazy() function?
+Code splitting is a way to prevent loading all of your code upfront.  Load it only when needed.
+The lazy() function allows React to dynamically load components while Suspense displays a fallback UI while the component is being loaded. 
+
+
+lecture notes:
+Revisiting component evaluation's and updates
+component functions get executed for two reasons:
+1) internal state changes. 2) Their parent component function is executed.
+
+When a parent component function is called so are all of its children.
+
+
+What happens to the DOM when a function is called?
+React evaluates, whether an update is needed or not to the user interface.
+Manipulating the DOM has high performance costs. It's ideal to avoid DOM manipulation, especially since react function components get involved often.
+React doesn't simply replace the old DOM with the new DOM it's very selective and only updates what's necessary.
+It does this through the virtual DOM.
+
+Virtual Dom vs the Real DOM
+Virtual DOM is an object representation of the real DOM. 
+It's easier for JavaScript to compare two JSON objects than to compare the real DOM.
+The virtual DOM is not a browser feature. It's a React feature. 
+You don't ever need to work with the virtual DOM.
+We're going over the virtual DOM so that you know how to react works behind the scenes.

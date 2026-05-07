@@ -4,10 +4,9 @@ export default function App() {
   return (
     <ul>
       {
-      myList.map( (item) => (
+      myList.map((item) => (
         <li>{item}</li>
-      ))
-      }
+      ))}
 
     </ul>
 

@@ -1,0 +1,22 @@
+How can refs help with handling user inputs in forms?
+
+Refs are used when you want to reference a value but you don't need it for rendering.  Refs don't trigger
+a rerender and don't depend on rendering to work.
+
+In a form, when you track state, every keystroke can cause a rerender (change in state).  With a reference you are able to capture a value at a specific time (for ex after a submit event).
+
+
+
+What is an uncontrolled component? What is a controlled component?
+Who is managing the value in an input element?  The programmer (controlled) or are you allowing the default
+behavior of the browser to occur (uncontrolled)?
+
+When should you not use refs?
+You shouldn't use refs when you want to update the UI.
+If you want validation, live feedback or character counts on an input form, use state, not refs.
+
+What's the main idea behind portals?
+Portals are a built in method that are used to allow DOM elements to escape their parent container, for example
+if you need to use a modal, or a pop up, or an ad that needs to be on a different level than the other HTML 
+(z-index is a good example.)  I like to think of it as stacking papers.  The bottom page is your main HTML and
+you can use a portal to add another page (or layer on top).

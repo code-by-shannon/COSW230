@@ -1,0 +1,30 @@
+1) What problem can be solved with React's context API?
+
+Context API helps avoid prop drilling.  Prop drilling is passing props through components that don't use them
+just so that you can eventually get to the prop that does need it.  It is messy, hard to read, organize and 
+refactor.  Prop drilling complicates component stuctre and makes makes the app prone to errors, especially during
+refactoring and scaling up.
+
+Context() API is a hook that allows functional components to access context values with ease.  It is designed to share data
+across the component tree without having to pass props down manually through each level.
+
+
+
+2) Which three main steps have to be taken when using the context API?
+
+i.  Create a context:  First create a React.createContext() object which will hold the data that you want to share
+across your component tree.
+
+ii.  Provide a context value:  Use Context.provider to wrap your component tree so that any component with the wrapper can
+have access to the provided context value.  Pass the data you want to share to the provider through its value prop.
+
+iii.  Consume the context:  any component that needs access can do so using the useContext hook.  Pass the context object
+and to useContext and it will return the context value.
+
+
+
+3) When might useReducer() be preferred over useState()?
+
+useReducer() is a hook that manages state in a more structured way.  It is similar to useState but provides more control
+over how updates are applied.  This allows state transitions to be more predictable and easier to manage especially in
+complex apps with multiple state changes or when the next state depends on the previous one.
