@@ -1,0 +1,3 @@
+Custom Hooks:  perfect for stateful logic that needs to be used across multiple components.
+  - create custom hooks when you repeat the same combinations of useState, useEffect or other hooks in various components.
+  - or use custom hooks when your code is becoming cluttered with complex state management not directly related to rendering.
