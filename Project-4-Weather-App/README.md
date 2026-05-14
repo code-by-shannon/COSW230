@@ -38,5 +38,5 @@ npm run dev
 
 ## Author
 
-Green Genes
+Shannon
 
