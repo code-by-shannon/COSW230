@@ -1,16 +1,51 @@
-# React + Vite
+# Lab 7 - Exercise 12.1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Basic Three-Page React Website
 
-Currently, two official plugins are available:
+This project is a simple multi-page React application built with Vite and React Router DOM.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application includes:
 
-## React Compiler
+- A Welcome page
+- A Products page
+- A shared navigation bar
+- Client-side routing using React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- React Router DOM
+- JavaScript
+- JSX
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Navigation between pages without full page reloads
+- Shared layout and navigation components
+- Organized folder structure using:
+  - `components`
+  - `pages`
+- Dummy product data displayed on the Products page
+
+## Project Structure
+
+src/
+├── components/
+│   ├── Layout.jsx
+│   └── MainNavigation.jsx
+│
+├── pages/
+│   ├── Welcome.jsx
+│   └── Products.jsx
+│
+├── App.jsx
+└── main.jsx
+
+## Installation
+
+Install dependencies:
+
+```bash
+npm install
