@@ -1,17 +1,23 @@
 import './App.css'
 import  Layout  from './components/Layout';
 import { Routes, Route } from 'react-router-dom';
-import Welcome from './pages/Welcome';
-import Products from './pages/Products';
+
+import { lazy, Suspense } from 'react';
+import PageNotFound from './components/NotFound';
+const Welcome = lazy(() => import('./pages/Welcome'));
+const Products = lazy(() => import('./pages/Products'));
 
 function App() {
   return (
-      <Routes>
+    <Suspense fallback={<p>Loading...</p>}>
+        <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Welcome />} />
           <Route path="/products" element={<Products />} />
+          <Route path='*' element={<PageNotFound />} />
         </Route>
       </Routes>
+    </Suspense>
   )
 }
 

@@ -1,0 +1,18 @@
+What is routing?
+
+Routing is the process of determining what content to display based on the URL the user
+navigates to.  SPA's update the url dependendent content without reloading the entire
+page.
+
+Routing is mapping URL's to the content or components that should render for them.
+
+/ usually means home component
+/about can be the about component
+/products can be the products component etc
+
+The router tells the app what to render based on which components belong to the chosen URL.
+
+
+
+How should you add links to different routes on your pages?
+Links should not be added with <a href=''> but rather like this: <Link to='/'>Home</Link>
