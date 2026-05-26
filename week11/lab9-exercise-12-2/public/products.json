@@ -1,0 +1,44 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Guitars",
+        "description": "Your favorite guitars made by Fender",
+        "price": 999,
+        "category": "Gear",
+        "inStock": true
+      },
+      {
+        "id": 2,
+        "name": "Amps",
+        "description": "Your favorite amps made by Marshall",
+        "price": 1399,
+        "category": "Gear",
+        "inStock": true
+      },
+      {
+        "id": 3,
+        "name": "Pedals",
+        "description": "Your favorite pedals made by Boss",
+        "price": 199,
+        "category": "Gear",
+        "inStock": false
+      },
+      {
+        "id": 4,
+        "name": "Microphones",
+        "description": "Your favorite microphones made by Sure",
+        "price": 149,
+        "category": "Gear",
+        "inStock": true
+      },
+      {
+        "id": 5,
+        "name": "PA Systems",
+        "description": "Because singers need a PA",
+        "price": 2000,
+        "category": "Gear",
+        "inStock": false
+      }
+    ]
+  }
