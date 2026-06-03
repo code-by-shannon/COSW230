@@ -1,0 +1,146 @@
+[
+    {
+      "id": 1,
+      "title": "Fender Stratocaster",
+      "price": 1499.99,
+      "description": "Classic double-cutaway electric guitar with versatile tones.",
+      "category": "Electric Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 124
+      }
+    },
+    {
+      "id": 2,
+      "title": "Fender Telecaster",
+      "price": 1399.99,
+      "description": "Iconic single-cutaway electric guitar known for bright twang.",
+      "category": "Electric Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 98
+      }
+    },
+    {
+      "id": 3,
+      "title": "Fender Jaguar",
+      "price": 1299.99,
+      "description": "Offset-body electric guitar with unique switching options.",
+      "category": "Electric Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 71
+      }
+    },
+    {
+      "id": 4,
+      "title": "Gibson Les Paul",
+      "price": 2799.99,
+      "description": "Legendary mahogany-bodied electric guitar with humbuckers.",
+      "category": "Electric Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.9,
+        "count": 215
+      }
+    },
+    {
+      "id": 5,
+      "title": "Gibson SG",
+      "price": 1799.99,
+      "description": "Lightweight double-horn electric guitar with aggressive tone.",
+      "category": "Electric Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 143
+      }
+    },
+    {
+      "id": 6,
+      "title": "PRS Custom 24",
+      "price": 3499.99,
+      "description": "Premium electric guitar with exceptional craftsmanship.",
+      "category": "Electric Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.9,
+        "count": 88
+      }
+    },
+    {
+      "id": 7,
+      "title": "Martin D-28",
+      "price": 3199.99,
+      "description": "World-famous dreadnought acoustic guitar.",
+      "category": "Acoustic Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 5.0,
+        "count": 176
+      }
+    },
+    {
+      "id": 8,
+      "title": "Taylor 214ce",
+      "price": 1099.99,
+      "description": "Popular acoustic-electric guitar with balanced tone.",
+      "category": "Acoustic Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 93
+      }
+    },
+    {
+      "id": 9,
+      "title": "Gretsch G6120",
+      "price": 2599.99,
+      "description": "Classic hollow-body guitar favored by rockabilly players.",
+      "category": "Hollow Body Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 67
+      }
+    },
+    {
+      "id": 10,
+      "title": "Rickenbacker 330",
+      "price": 1999.99,
+      "description": "Semi-hollow electric guitar with unmistakable chime.",
+      "category": "Semi-Hollow Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 58
+      }
+    },
+    {
+      "id": 11,
+      "title": "Ibanez RG550",
+      "price": 1199.99,
+      "description": "High-performance electric guitar built for speed.",
+      "category": "Electric Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 84
+      }
+    },
+    {
+      "id": 12,
+      "title": "Epiphone Casino",
+      "price": 799.99,
+      "description": "Fully hollow electric guitar made famous by classic rock artists.",
+      "category": "Hollow Body Guitar",
+      "image": "/img/strat.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 112
+      }
+    }
+  ]
