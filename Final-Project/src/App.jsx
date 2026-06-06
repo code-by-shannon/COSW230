@@ -6,10 +6,10 @@ import { Routes, Route, Link } from 'react-router-dom';
 
 function NavBar(){
   return(
-    <>
+    <nav>
           <Link to='/products'>View Our Guitars</Link>
           <Link to='/'>Home</Link>
-    </>
+    </nav>
 
   )
 }

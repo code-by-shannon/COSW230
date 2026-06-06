@@ -21,17 +21,22 @@ export function RenderGuitarSpecs(){
         <>
           <h1>Welcome to our Products Page</h1>
       
+          <div className='products-grid'>
           {guitars.map((gtr) => {
             return (
                <Link key={gtr.id} to={`/details/${gtr.id}`}>
                     <div className = 'guitar_div'>
                         <img className='photo' src={gtr.image} />
-                        <p>{gtr.title}</p>
+                        <p className = 'guitar_fig'>{gtr.title}</p>
                     </div>
                 </Link> 
 
             );
           })}
+
+            
+          </div>
+
         </>
       );
 }

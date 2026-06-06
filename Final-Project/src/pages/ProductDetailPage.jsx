@@ -29,19 +29,19 @@ export function Details() {
    
 
     return(
-        
         <>
-            <p>Details Page</p>  
-            <h2>{targetGuitar?.title}</h2>
+            <h1>Details Page</h1>  
+        <div className = 'details-card'>
+            
+            <h2 className ='h2_details'>{targetGuitar?.title}</h2>
             <img className = 'photo' src={targetGuitar?.image} />
-            <p>${targetGuitar?.price}</p>
-            <p>{targetGuitar?.description}</p>
-            <p>Overall User Rating: {targetGuitar?.rating.rate}</p>
-            <p>Number Of Ratings: {targetGuitar?.rating.count}</p>
-            
-            
-             
+            <p className='p_details'>${targetGuitar?.price}</p>
+            <p className='p_details'>{targetGuitar?.description}</p>
+            <p className='p_details'>Overall User Rating: {targetGuitar?.rating.rate}</p>
+            <p className='p_details'>Number Of Ratings: {targetGuitar?.rating.count}</p>
+        </div>
         </>
+        
 
     )
 }

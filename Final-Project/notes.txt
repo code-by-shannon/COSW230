@@ -1,0 +1,14 @@
+
+
+My approach when developing the app was survival. The home page is pretty basic, it only displays the title "Shannon's Guitar Shop" and a navigation bar. The navigation bar is routed to appear on every page of the application.
+
+When users click "View Our Guitars," they are taken to the Products page, which displays 12 guitars loaded from a JSON file which is an array of product objects. Each guitar object contains its own information, including a title, image, price, description, rating, and number of reviews.
+
+Each product card is clickable. For example, clicking the Epiphone Casino takes the user to a Details page associated with that guitar's ID. The URL updates to reflect the selected guitar, such as /details/12, and displays detailed information about that specific product while keeping the navigation bar visible.
+
+For dependencies, I used React Router for navigation and routing, including Routes, Route, and Link. I also used React hooks such as useState and useEffect to manage and display data within the application.
+
+One of the biggest things I learned this semester was the difference between JavaScript and a library like React. Before this class, I didn't fully understand what libraries and frameworks were. React is a way to use JavaScript by creating it's own repository of custom JS functions. Single-page application was also new to me. I never realized in all the time I navigated the web the differnce between clicking a link and requesting a whole new file from a server vs an app being able to stay on the same page by just swapping components.
+
+I have much to learn and much practice to do if I want to get good at this.  It definitey doesn't feel natural to me.  (I liked JavaScript better, it seems much more straightforward to me).  I was just trying to get the app to work, it's pretty ugly with minimal design and only covers the basic requirments for the actual React.
+
